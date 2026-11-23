@@ -1,0 +1,8 @@
+# Changed legacy Wix pages. Netlify matches both trailing-slash variants.
+/aboutemma                 /about-me/                  301
+/how-can-emma-help-you      /how-i-can-help-you/        301
+/blog/categories/property       /blog/                  301
+/blog/categories/home-buying    /blog/                  301
+/blog/categories/hertfordshire  /blog/                  301
+# Existing /, /services-and-fees/, /blog/ and /post/* routes are retained.
+# Do not redirect those routes to themselves: Netlify normalises trailing slashes.
